@@ -1,0 +1,86 @@
+ body {
+    background-color: #1d1716;
+}
+@font-face {
+    font-family: 'nazanin';
+    src: url('B-NAZANIN.TTF') format('truetype');
+}
+.headerp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.bt{
+    margin-left: 100px;
+}
+.bt button{
+    margin-left: 20px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 100px;
+}
+.container{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+    font-family: 'nazanin';
+    margin: 5 auto;
+}
+h1{
+    color: #f3bc77;
+}
+input, select {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #402a23;
+    color: #f3bc77;
+    border: none;
+}
+input::placeholder{
+    color: #f3bc77;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f3bc77;
+    color: #402a23;
+    border-radius: 16px;
+    border: none;
+    transition: .7s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #402a23;
+    color: #f3bc77;
+}
+p{
+    color: #f3bc77;
+    border: 2px solid #402a23;
+    width: 170px;
+    padding: 10px;
+    position: absolute;
+    margin-right: 42%;
+    height: 30px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+.footer p{
+    color: #f3bc77;
+    font-size: 20px;
+    border: none;
+    margin-top: -70px;
+    margin-right: 495px;
+    direction: ltr;
+    width: 300px;
+}

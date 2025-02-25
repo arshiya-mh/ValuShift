@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <script src="https://kit.fontawesome.com/837494d1db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تبدیل‌گر واحد جامع</title>
+</head>
+<body>
+    <div class="headerp">
+        <div class="logo"><img src="logoo.jpg" alt=""></div>
+        <div class="bt">
+            <button><i class="fa-solid fa-user"></i></button>
+            <button><i class="fa-solid fa-clock-rotate-left"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>تبدیل‌گر واحد جامع</h1>
+        <input type="number" id="inputValue" placeholder="مقدار را وارد کنید">
+        <select id="inputUnit">
+            <option value="meters">متر</option>
+            <option value="kilometers">کیلومتر</option>
+            <option value="grams">گرم</option>
+            <option value="kilograms">کیلوگرم</option>
+            <option value="celsius">سانتی‌گراد</option>
+            <option value="fahrenheit">فارِنهایت</option>
+            <option value="liters">لیتر</option>
+            <option value="milliliters">میلی‌لیتر</option>
+        </select>
+        <button onclick="convert()">تبدیل</button>
+        <p id="result"></p>
+    </div>
+    <div class="footer">
+        <p>🚀 Developed by Arshiya MH</p>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
